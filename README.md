@@ -1,12 +1,12 @@
 # react-go
 
-react-go is a Go wrapper around the [React](http://facebook.github.io/react/) and [JSX](http://facebook.github.io/react/docs/jsx-in-depth.html).
+react-go is a Go wrapper around the [React](http://facebook.github.io/react/) and [JSX](http://facebook.github.io/react/docs/jsx-in-depth.html). It enables you to do server-side rendering with the React.
 
 ## Overview
 
-Currently react.js and JSXTransformer version are *0.13.1*.
+Currently react.js and JSXTransformer version are *0.13.3*.
 
-*Dependencies:* react-go use [go-duktape](https://github.com/olebedev/go-duktape).
+*Dependencies:* react-go use [go-duktape](https://github.com/olebedev/go-duktape) to evaluate javascript.
 
 ## Features
 
@@ -87,7 +87,7 @@ output (formatted):
 ### Install
 
 ```
-$ go get github.com/bluele/react-go
+$ go get -u github.com/bluele/react-go
 ```
 
 # Author
